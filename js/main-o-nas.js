@@ -69,7 +69,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlOpacity)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let imgContainerOne=new ScrollMagic.Scene({
@@ -78,7 +77,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlRotateRightOne)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let imgContainerTwo=new ScrollMagic.Scene({
@@ -87,7 +85,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlRotateRight)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
 
@@ -98,7 +95,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlRotateLeftOne)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let imgContainerFour=new ScrollMagic.Scene({
@@ -107,7 +103,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlRotateLeft)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
 
@@ -117,7 +112,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlnameXopacityOne)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonName2=new ScrollMagic.Scene({
@@ -126,7 +120,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlnameXopacityTwo)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonName3=new ScrollMagic.Scene({
@@ -135,7 +128,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlnameXopacityThree)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonName4=new ScrollMagic.Scene({
@@ -144,7 +136,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlnameXopacityFour)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonInfo1=new ScrollMagic.Scene({
@@ -153,7 +144,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlNameParagraph1)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonInfo2=new ScrollMagic.Scene({
@@ -162,7 +152,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlNameParagraph2)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonInfo3=new ScrollMagic.Scene({
@@ -171,7 +160,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlNameParagraph3)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 
     let PersonInfo4=new ScrollMagic.Scene({
@@ -180,6 +168,5 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlNameParagraph4)
-    .addIndicators({colorTrigger:'red',name:"NAME"})
     .addTo(controller);
 })
