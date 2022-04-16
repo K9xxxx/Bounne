@@ -124,8 +124,7 @@ $(document).ready(function(){
         offset:10,
         reverse:true
     })
-    .setClassToggle('.toggle-p-menu', 'fade-out')
-    .addIndicators()     
+    .setClassToggle('.toggle-p-menu', 'fade-out')  
     .addTo(controller);
 
     let page1Sec2Content = new ScrollMagic.Scene({
@@ -134,7 +133,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.secound-section', 'opacityContent')
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec3img = new ScrollMagic.Scene({
@@ -144,7 +142,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.border-of-picture', 'opacityContent')
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec3background = new ScrollMagic.Scene({
@@ -153,7 +150,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.label-from-left', 'positionWidthContent')
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec3text1 = new ScrollMagic.Scene({
@@ -162,7 +158,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.grid-label.about', 'opacityContent')
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec3text2 = new ScrollMagic.Scene({
@@ -171,7 +166,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.grid-label.contact', 'opacityContent')
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec3anch1 = new ScrollMagic.Scene({
@@ -180,7 +174,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.anchor-container', 'opacityContent')
-    .addIndicators()
     .addTo(controller);
     
     let page1Sec4Containers = new ScrollMagic.Scene({
@@ -189,7 +182,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlShow)
-    .addIndicators()
     .addTo(controller);
 
     let page1Sec4shadowContainers = new ScrollMagic.Scene({
@@ -198,7 +190,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlScroll)
-    .addIndicators()
     .addTo(controller);
     let page1Sec4Border = new ScrollMagic.Scene({
         triggerElement:".fourth-section",
@@ -206,7 +197,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setClassToggle('.all-card-border','positionWidthContent')
-    .addIndicators()
     .addTo(controller);
 })
 
