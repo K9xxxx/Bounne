@@ -29,7 +29,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlLeftInfo)
-    .addIndicators()
     .addTo(controller);
 
 })
