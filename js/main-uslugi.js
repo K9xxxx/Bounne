@@ -25,7 +25,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlParagraphs)
-    .addIndicators()
     .addTo(controller);
 
     let vertBorder = new ScrollMagic.Scene({
@@ -34,7 +33,6 @@ $(document).ready(function(){
         reverse:false
     })
     .setTween(tlBorder)
-    .addIndicators()
     .addTo(controller);
 
 })
