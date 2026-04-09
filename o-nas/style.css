@@ -313,7 +313,7 @@ body::-webkit-scrollbar-thumb:hover {
 .image-container {
   position: relative;
   min-width: 250px;
-  height: 350px;
+  height: 300px;
 }
 .image-container img {
   width: 100%;
@@ -508,26 +508,26 @@ body::-webkit-scrollbar-thumb:hover {
     display: inline-block;
   }
   .icon-nawigacja {
-    width: 60px;
-    height: 60px;
-    margin-left: -60px;
+    width: 40px;
+    height: 40px;
+    margin-left: -45px;
     position: absolute;
   }
   .icon-nawigacja img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
   .icon-close {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .icon-close img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .mobile-nawigacja-content {
     overflow: scroll;
@@ -632,7 +632,8 @@ body::-webkit-scrollbar-thumb:hover {
   .banner-img-mobile {
     background: url('../img/los-zdjecie1-s.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 150% 100%;
+    background-position: 50% 0;
   }
   .first-section-paragraph {
     width: 96%;

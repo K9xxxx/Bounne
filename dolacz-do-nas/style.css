@@ -426,26 +426,26 @@ body::-webkit-scrollbar-thumb:hover {
     display: inline-block;
   }
   .icon-nawigacja {
-    width: 60px;
-    height: 60px;
-    margin-left: -60px;
+    width: 40px;
+    height: 40px;
+    margin-left: -45px;
     position: absolute;
   }
   .icon-nawigacja img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
   .icon-close {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .icon-close img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .mobile-nawigacja-content {
     overflow: scroll;

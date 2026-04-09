@@ -295,14 +295,14 @@ body::-webkit-scrollbar-thumb:hover {
 .bigger-p {
   width: 95%;
   margin: 100px auto 0;
-  font-size: 24px;
+  font-size: 35px;
   text-align: center;
   color: white;
 }
 .lower-p {
   width: 80%;
   margin: 70px auto 0;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   color: #a5a5a5;
 }
@@ -351,17 +351,6 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: -1;
 }
 
-@media only screen and (min-width:1201px){
-  .bigger-p {
-    width: 75%;
-}
-.lower-p {
-  width: 70%;
-}
-.offer-all-container {
-  width: 75%;
-}
-}
 @media only screen and (max-width: 1200px) {
   .all-content-footer {
     width: 90%;
@@ -378,14 +367,14 @@ body::-webkit-scrollbar-thumb:hover {
   .bigger-p {
     width: 95%;
     margin: 100px auto 0;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: white;
   }
   .lower-p {
     width: 80%;
     margin: 70px auto 0;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: #a5a5a5;
   }
@@ -449,26 +438,26 @@ body::-webkit-scrollbar-thumb:hover {
     display: inline-block;
   }
   .icon-nawigacja {
-    width: 60px;
-    height: 60px;
-    margin-left: -60px;
+    width: 40px;
+    height: 40px;
+    margin-left: -45px;
     position: absolute;
   }
   .icon-nawigacja img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
   .icon-close {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .icon-close img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .mobile-nawigacja-content {
     overflow: scroll;
@@ -546,7 +535,7 @@ body::-webkit-scrollbar-thumb:hover {
   .bigger-p {
     width: 95%;
     margin: 50px auto 0;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     color: white;
   }
@@ -589,8 +578,8 @@ body::-webkit-scrollbar-thumb:hover {
   .banner-img-mobile {
     background: url('../img/los-zdjecie2-s.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 0px;
+    background-size: 150% 100%;
+    background-position: 70% 0;
   }
 }
 @media only screen and (max-width: 400px) {

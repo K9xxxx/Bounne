@@ -236,7 +236,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .picture-owner {
   position: relative;
-  width: 100%;
+  width: 400px;
   height: 400px;
 }
 .picture-owner::before {
@@ -245,8 +245,8 @@ body::-webkit-scrollbar-thumb:hover {
   left: 50%;
   content: '';
   transform: translate(-50%, -50%);
-  width: 80%;
-  height: 350px;
+  width: 280px;
+  height: 280px;
   box-shadow: 0px 0px 100px 30px #3d0000;
   z-index: -1;
 }
@@ -258,6 +258,7 @@ body::-webkit-scrollbar-thumb:hover {
   text-align: center;
   color: #ff0000;
   padding-top: 15px;
+  margin-left:-100px;
 }
 .owner p {
   color: #ff0000;
@@ -654,6 +655,32 @@ body::-webkit-scrollbar-thumb:hover {
     font-size: 24px;
   }
 }
+@media only screen and (max-width: 1450px) {
+  .litte-aboutus {
+    border: 2px solid #b10000;
+    margin-top: 100px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px 0px;
+  }
+  .litte-aboutus-div {
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+.picture-of-owner {
+    position: relative;
+    width: 39.99%;
+    margin: auto;
+}
+.owner {
+    text-align: center;
+    color: #ff0000;
+    padding-top: 15px;
+    margin-left: -50px;
+}
+}
 @media only screen and (max-width: 1000px) {
   .contact-conainer-label {
     display: block;
@@ -670,6 +697,12 @@ body::-webkit-scrollbar-thumb:hover {
     padding-top: 250px;
     padding-bottom: 250px;
   }
+  .owner {
+    text-align: center;
+    color: #ff0000;
+    padding-top: 15px;
+    margin-left: -30px;
+}
   .grid-anchors-container-absolute {
     position: relative;
     width: 70%;
@@ -887,7 +920,14 @@ body::-webkit-scrollbar-thumb:hover {
 
   .picture-of-owner {
     width: 60%;
+    margin-bottom:100px;
   }
+  .owner {
+  text-align: center;
+  color: #ff0000;
+  padding-top: 15px;
+  margin-left: 0px;
+}
   .litte-aboutus-div {
     width: 100%;
     text-align: center;
@@ -922,6 +962,16 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 @media only screen and (max-width: 600px) {
+  .picture-owner {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin:0 auto;
+}
+.picture-owner::before {
+    width: 180px;
+    height: 180px;
+  }
   .footer-socials {
     display: flex;
     justify-content: space-evenly;
@@ -932,7 +982,7 @@ body::-webkit-scrollbar-thumb:hover {
   .banner-img-mobile:nth-child(1) {
     background: url('../img/baner1-s.jpg');
     background-repeat: no-repeat;
-    background-size: 150% 100%;
+    background-size: 150% 120%;
     background-position: -30px;
   }
   .banner-img-mobile:nth-child(2) {
@@ -949,7 +999,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .picture-of-owner {
     width: 80%;
-    margin: auto 8% auto 12%;
+    margin-bottom:70px;
   }
   .picture-owner::before {
     box-shadow: 0px 0px 100px 20px #3d0000;
@@ -1003,15 +1053,6 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     width: 100%;
     height: 300px;
-  }
-  .picture-owner::before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    content: '';
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 220px;
   }
   .grid-label.about p {
     font-size: 15px;
