@@ -24,61 +24,7 @@ iconClose.addEventListener('click', () => {
     tl.to(iconNav,  { duration: 0.3, opacity: 1 })
 });
 
-/* Slideshow mobile — czysty JS + CSS transition*/
 
-(function initMobileSlideshow() {
-    const slides = Array.from(document.querySelectorAll('.banner-img-mobile'));
-    if (slides.length < 2) return;
-
-    const HOLD_MS = 3000; // czas wyświetlania slajdu
-    const FADE_MS = 1000; // czas przejścia — musi być = CSS transition-duration
-
-    let current = 0;
-
-    // Upewniamy się że stan startowy jest czysty
-    slides.forEach((s, i) => { s.style.opacity = i === 0 ? '1' : '0'; });
-
-    function advance() {
-        const prev = current;
-        current = (current + 1) % slides.length;
-
-        slides[current].style.opacity = '1'; // następny fade in
-        slides[prev].style.opacity    = '0'; // poprzedni fade out
-
-        setTimeout(advance, HOLD_MS + FADE_MS);
-    }
-
-    setTimeout(advance, HOLD_MS); // pierwsze przejście po 3s
-})();
-
-
-const tlDesktop = gsap.timeline({ repeat: -1 });
-tlDesktop
-    .to(bannerDesktop[1], { duration: 1, opacity: 1 }, 3)
-    .to(bannerDesktop[0], { duration: 1, opacity: 0 }, 3)
-    .to(bannerDesktop[2], { duration: 1, opacity: 1 }, 7)
-    .to(bannerDesktop[1], { duration: 1, opacity: 0 }, 7)
-    .to(bannerDesktop[0], { duration: 1, opacity: 1 }, 11)
-    .to(bannerDesktop[2], { duration: 1, opacity: 0 }, 11);
-
-/* Synchronizacja kropek hero z slideshow */
-
-const dots = document.querySelectorAll(".hero-dot");
-if (dots.length === 3) {
-    let activeSlide = 0;
-
-    function updateDots(i) {
-        dots.forEach((d, idx) => d.classList.toggle("active", idx === i));
-    }
-
-    setTimeout(() => {
-        activeSlide = 1; updateDots(1);
-        setInterval(() => {
-            activeSlide = (activeSlide + 1) % 3;
-            updateDots(activeSlide);
-        }, 4000);
-    }, 3000);
-}
 
 /* Nawigacja desktopowa — otwieranie */
 desktopNav.addEventListener('click', () => {
